@@ -12,7 +12,7 @@ export default function SignInBtn() {
   }
 
   return (
-    <div className="signInBtn">
+    <div className="signInBtn" onClick={signInBtnClick}>
       <p>Sign in with google</p>
     </div>
   );
