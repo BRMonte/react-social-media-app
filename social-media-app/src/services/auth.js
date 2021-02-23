@@ -13,7 +13,7 @@ export const signInWithGoogle = async () => {
   return user;
 };
 
-export const logout = () => {
+export const logout = async () => {
   let logout_success;
   await auth.signOut()
   .then(() => {
